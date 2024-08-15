@@ -6,7 +6,7 @@ function updateResults() {
     const totalVotes = votes.option1 + votes.option2 + votes.option3;
     document.getElementById('result1').innerText = `Hyderabadi Biriyani: ${((votes.option1 / totalVotes) * 100).toFixed(2)}%`;
     document.getElementById('result2').innerText = `Chole Bhature: ${((votes.option2 / totalVotes) * 100).toFixed(2)}%`;
-    document.getElementById('result3').innerText = `Plain Dosa: ${((votes.option3 / totalVotes) * 100).toFixed(2)}%`;
+    document.getElementById('result3').innerText = `Momo: ${((votes.option3 / totalVotes) * 100).toFixed(2)}%`;
 }
 
 // Function to handle voting
