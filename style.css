@@ -352,3 +352,20 @@ h2 {
       gap: 10px;
   }
 }
+/* For the entire page */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f18383; /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f41e1e; /* Thumb color */
+  border-radius: 10px; /* Rounded corners */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ec9191; /* Thumb color on hover */
+}
