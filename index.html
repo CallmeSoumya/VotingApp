@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Voting System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Vote for Your Favorite Food</h1>
+        <div class="options">
+            <div class="option" onclick="vote('option1')">
+                <img src="images/hyderabadibiriyani.jpg" alt="Hyderabadi Biriyani">
+                <button>Hyderabadi Biriyani</button>
+            </div>
+            <div class="option" onclick="vote('option2')">
+                <img src="images/cholebhature.jpeg" alt="Chole Bhature">
+                <button>Chole Bhature</button>
+            </div>
+            <div class="option" onclick="vote('option3')">
+                <img src="images/Plain-Dosa.jpg" alt="Plain Dosa">
+                <button>Plain Dosa</button>
+            </div>
+        </div>
+        <div class="results">
+            <h2>Results</h2>
+            <div id="result1">Hyderabadi Biriyani: 0%</div>
+            <div id="result2">Chole Bhature: 0%</div>
+            <div id="result3">Plain Dosa: 0%</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
